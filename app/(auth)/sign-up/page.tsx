@@ -1,11 +1,12 @@
-import React from 'react'
+import SignUpCard from "@/featured/auth/components/sign-up-card";
+import React from "react";
 
 const SignUpPage = () => {
   return (
     <div>
-      SignUpPage
+      <SignUpCard />
     </div>
-  )
-}
+  );
+};
 
-export default SignUpPage
+export default SignUpPage;

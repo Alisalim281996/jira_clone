@@ -1,9 +1,10 @@
+import SignInCard from '@/featured/auth/components/sign-in-card'
 import React from 'react'
 
 const SignInPage = () => {
   return (
     <div>
-      SignInPage
+      <SignInCard/>
     </div>
   )
 }
